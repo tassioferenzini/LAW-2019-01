@@ -1,0 +1,10 @@
+{
+  "require":
+  {
+    "cagartner/correios-consulta": "0.1.*"
+  },
+  "require-dev":
+  {
+    "phpunit/phpunit": "7.4.*"
+  }
+}
