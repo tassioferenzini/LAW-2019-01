@@ -9,10 +9,10 @@
 class Template
 {
 
-    function header()
+    public static function header()
     {
 
-session_start();
+/*session_start();
 if((!isset ($_SESSION['login']) == true) and (!isset ($_SESSION['senha']) == true))
 {
     unset($_SESSION['login']);
@@ -20,17 +20,16 @@ if((!isset ($_SESSION['login']) == true) and (!isset ($_SESSION['senha']) == tru
     header('location:login.php');
 }
 $logado = $_SESSION['login'];
-
+*/
 
         echo "<!doctype html>
 <html lang='en'>
 <head>
 	<meta charset='utf-8' />
-	<link rel='apple-touch-icon' sizes='76x76' href='assets/img/apple-icon.png'>
-	<link rel='icon' type='image/png' sizes='96x96' href='assets/img/favicon.png'>
+	<link rel='icon' type='image/png' sizes='96x96' href='assets/img/favicon.jpg'>
 	<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1' />
 
-	<title>Leiturista</title>
+	<title>Biblioteca</title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name='viewport' content='width=device-width' />
@@ -53,7 +52,7 @@ $logado = $_SESSION['login'];
 
     }
 
-    function footer()
+public static function footer()
     {
         echo " <footer class=\"footer\">
             <div class=\"container-fluid\">
@@ -88,7 +87,7 @@ $logado = $_SESSION['login'];
 
     }
 
-    function sidebar()
+public static function sidebar()
     {
         echo "<div class=\"wrapper\">
         <div class=\"sidebar\" data-background-color=\"white\" data-active-color=\"danger\">
@@ -100,41 +99,17 @@ $logado = $_SESSION['login'];
 
         <div class=\"sidebar-wrapper\">
             <div class=\"logo\">
-                <a href='index.php'><img src=\"assets/img/logo.png\" height=\"150\" width=\"200\"></a>
-                <h4>Leiturista</h4>
-                <small>";
-                $logado = $_SESSION["nameUser"];
-                echo $logado;
-                echo "</small>
+                <a href='index.php'><img src=\"assets/img/logo.jpg\" height=\"150\" width=\"200\"></a>
+                <h4>Biblioteca</h4>
+                <small></small>
                 <a class='btn btn-success'  href=\"logout.php\">Logout</a>
             </div>
 
             <ul class=\"nav\">
                 <li class=\"active\">
-                    <a href=\"dashboard.php\">
-                        <i class=\"ti-panel\"></i>
-                        <p>Dashboard</p>
-                    </a>
-                </li>";
-                if($_SESSION['typeUser'] == 0){
-                echo"<li>
-                    <a href='users.php'>
+                    <a href='autores.php'>
                         <i class=\"ti-user\"></i>
-                        <p>Users</p>
-                    </a>
-                </li>";
-                }
-                echo"
-                <li>
-                    <a href=\"lecturers.php\">
-                        <i class=\"ti-id-badge\"></i>
-                        <p>Leituristas</p>
-                    </a>
-                </li>
-                 <li>
-                    <a href=\"meters.php\">
-                        <i class=\"ti-pulse\"></i>
-                        <p>Medidores</p>
+                        <p>Autores</p>
                     </a>
                 </li>
             </ul>
@@ -142,7 +117,7 @@ $logado = $_SESSION['login'];
     </div>";
     }
 
-    function mainpanel()
+public static function mainpanel()
     {
         date_default_timezone_set('America/Sao_Paulo');
         $data = date("F j, Y");

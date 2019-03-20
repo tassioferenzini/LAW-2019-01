@@ -6,7 +6,7 @@
  * Time: 16:31
  */
 
-require_once 'dao/userDAO.php';
+require_once 'dao/usuarioDAO.php';
 
 // session_start inicia a sessão
 session_start();
@@ -14,11 +14,11 @@ session_start();
 $login = $_POST['login'];
 $senha = $_POST['senha'];
 
-$user = new userDAO();
+$usuario = new usuarioDAO();
 
-$valid = $user->auth($login, $senha);
+$valido = $usuario->logar($login, $senha);
 
-if( $valid == true)
+if( $valido == true)
 {
     $_SESSION['login'] = $login;
     $_SESSION['senha'] = $senha;

@@ -2,11 +2,9 @@
 
 require_once "view/template.php";
 
-$template = new Template();
-
-$template->header();
-$template->sidebar();
-$template->mainpanel();
+template::header();
+template::sidebar();
+template::mainpanel();
 ?>
 
 <div class='content' xmlns="http://www.w3.org/1999/html">
@@ -15,7 +13,7 @@ $template->mainpanel();
             <div class='col-md-12'>
                 <div class='card'>
                     <div class='header'>
-                        <h1 class='title' style="text-align: center">Leiturista</h1>
+                        <h1 class='title' style="text-align: center">Biblioteca</h1>
                         <p class='category'></p>
                     </div>
                     <div class='content table-responsive'>
@@ -29,5 +27,5 @@ $template->mainpanel();
 </div>
 
 <?php
-$template->footer();
+template::footer();
 ?>

@@ -10,7 +10,7 @@ define("HOSTNAME","localhost");
 define("USER","root");
 define("PASS","root");
 define("DRIVER","mysql");
-define("DBNAME","biblioteca");
+define("DBNAME","bibliotecaLPAW");
 define('CHARSET', 'utf8');
 //define("PORT","3306");
 

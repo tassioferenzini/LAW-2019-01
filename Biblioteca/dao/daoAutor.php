@@ -6,7 +6,7 @@
  * Time: 15:39
  */
 
-require_once "../db/Conexao.php";
+require_once "iPage.php";
 
 class daoAutor implements iPage
 {

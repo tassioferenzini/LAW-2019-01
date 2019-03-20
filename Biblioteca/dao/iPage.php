@@ -6,6 +6,8 @@
  * Time: 21:00
  */
 
+require_once "iDAO.php";
+
 interface iPage extends iDAO
 {
     public function tabelapaginada();
