@@ -2,27 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e4e7e40-1524-4c6d-a954-a763ccb3747d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Biblioteca/.idea/Biblioteca.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Biblioteca/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Biblioteca/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Biblioteca/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Biblioteca/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Biblioteca/dao/daoAutor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Biblioteca/dao/iDAO.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Biblioteca/dao/iPage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Biblioteca/db/Conexao.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Biblioteca/db/Modelo LPAW.mwb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Biblioteca/db/Modelo LPAW.mwb.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Biblioteca/db/configDB.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Biblioteca/modelo/autor.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Biblioteca/modelo/categoria.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Biblioteca/modelo/editora.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Biblioteca/modelo/emprestimo.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Biblioteca/modelo/exemplar.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Biblioteca/modelo/livro.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Biblioteca/modelo/usuario.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aulas/src/basicos/variaveisGlobaisSeguranca.php" beforeDir="false" afterPath="$PROJECT_DIR$/Aulas/src/basicos/variaveisGlobaisSeguranca.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/css/paper-dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/css/styleLogin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/css/themify-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/fonts/themify.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/fonts/themify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/fonts/themify.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/fonts/themify.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/img/apple-icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/img/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/img/favicon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/img/login-page-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/js/bootstrap-checkbox-radio.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/js/bootstrap-notify.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/js/chartist.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/js/jquery-1.10.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/js/paper-dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/sass/paper-dashboard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/sass/paper/_alerts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/sass/paper/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/sass/paper/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/sass/paper/_chartist.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/sass/paper/_checkbox-radio.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/sass/paper/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/sass/paper/_footers.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/sass/paper/_inputs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/sass/paper/_misc.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/sass/paper/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/sass/paper/_navbars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/sass/paper/_responsive.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/sass/paper/_sidebar-and-main-panel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/sass/paper/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/sass/paper/_typography.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/sass/paper/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/sass/paper/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/sass/paper/mixins/_cards.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/sass/paper/mixins/_chartist.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/sass/paper/mixins/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/sass/paper/mixins/_inputs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/sass/paper/mixins/_labels.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/sass/paper/mixins/_navbars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/sass/paper/mixins/_sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/sass/paper/mixins/_tabs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/sass/paper/mixins/_transparency.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/assets/sass/paper/mixins/_vendor-prefixes.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/dashboard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/logar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Biblioteca/view/template.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,12 +75,52 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Biblioteca/dao/daoAutor.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+            <state relative-caret-position="187">
+              <caret line="16" column="32" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="32" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Biblioteca/view/template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="19" column="26" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Biblioteca/logout.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Aulas/src/intermediario/session/logar.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Biblioteca/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Biblioteca/login.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Biblioteca/logar.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-124" />
           </provider>
         </entry>
       </file>
@@ -99,6 +173,7 @@
         <option value="$PROJECT_DIR$/Biblioteca/dao/iPage.php" />
         <option value="$PROJECT_DIR$/Biblioteca/dao/iDAO.php" />
         <option value="$PROJECT_DIR$/Biblioteca/dao/daoAutor.php" />
+        <option value="$PROJECT_DIR$/Biblioteca/index.php" />
       </list>
     </option>
   </component>
@@ -128,7 +203,39 @@
             <path>
               <item name="LAW-2019-01" type="b2602c69:ProjectViewProjectNode" />
               <item name="LAW-2019-01" type="462c0819:PsiDirectoryNode" />
+              <item name="Aulas" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LAW-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAW-2019-01" type="462c0819:PsiDirectoryNode" />
+              <item name="Aulas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LAW-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAW-2019-01" type="462c0819:PsiDirectoryNode" />
+              <item name="Aulas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="intermediario" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LAW-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAW-2019-01" type="462c0819:PsiDirectoryNode" />
+              <item name="Aulas" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="intermediario" type="462c0819:PsiDirectoryNode" />
+              <item name="session" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LAW-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAW-2019-01" type="462c0819:PsiDirectoryNode" />
               <item name="Biblioteca" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LAW-2019-01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LAW-2019-01" type="462c0819:PsiDirectoryNode" />
+              <item name="Biblioteca" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LAW-2019-01" type="b2602c69:ProjectViewProjectNode" />
@@ -140,7 +247,7 @@
               <item name="LAW-2019-01" type="b2602c69:ProjectViewProjectNode" />
               <item name="LAW-2019-01" type="462c0819:PsiDirectoryNode" />
               <item name="Biblioteca" type="462c0819:PsiDirectoryNode" />
-              <item name="db" type="462c0819:PsiDirectoryNode" />
+              <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -192,16 +299,17 @@
       <workItem from="1552781384697" duration="273000" />
       <workItem from="1552953778372" duration="3542000" />
       <workItem from="1552995488515" duration="63000" />
+      <workItem from="1553039990177" duration="1199000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14760000" />
+    <option name="totallyTimeSpent" value="15959000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.024232633" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24151857" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -409,10 +517,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Biblioteca/dao/daoAutor.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        <state relative-caret-position="187">
+          <caret line="16" column="32" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="32" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Biblioteca/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Biblioteca/login.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Biblioteca/logar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-124" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Biblioteca/view/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="19" column="26" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Biblioteca/logout.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Aulas/src/intermediario/session/logar.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
