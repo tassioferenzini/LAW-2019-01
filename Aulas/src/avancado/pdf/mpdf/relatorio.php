@@ -68,6 +68,6 @@ $mpdf->SetDisplayMode('fullpage');
 $mpdf->nbpgPrefix = ' de ';
 $mpdf->setFooter('Página {PAGENO}{nbpg}');
 $mpdf->WriteHTML($html);
-$mpdf->Output('Exemplo.pdf','I');
+$mpdf->Output('Exemplo.pdf','D');
 
 exit;
