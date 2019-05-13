@@ -30,10 +30,9 @@ $dados = array(
 
 $grafico->SetDataValues($dados);
 
-$grafico->
 
 #Neste caso, usariamos o gráfico em barras
-$grafico->SetPlotType("area");
+$grafico->SetPlotType("bars");
 
 #Exibimos o gráfico
 $grafico->DrawGraph();
